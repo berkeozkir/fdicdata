@@ -8,7 +8,7 @@ test_that("getSummary function returns data in the correct format and structure"
   expect_gte(nrow(df), 0)
   if(nrow(df) > 0){
     expect_type(df$STNAME, "character")
-    expect_type(df$YEAR, "integer")
+    expect_type(df$YEAR, "integer") 
   }
 })
 
